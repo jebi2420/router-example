@@ -3,7 +3,7 @@ import './App.css';
 import Homepage from './page/Homepage';
 import Aboutpage from './page/Aboutpage';
 import ProductPage from './page/ProductPage';
-import ProductDetail from './page/ProductDetail';
+import ProductDetail from './page/ProductDetailPage';
 
 function App() {
   return (

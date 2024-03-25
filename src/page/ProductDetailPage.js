@@ -1,11 +1,15 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
-const ProductDetail = () => {
+const ProductDetailPage = () => {
+  const {id} = useParams()
+  console.log("ppp", {id})
+
   return (
     <div>
-      <h1>Product Detail</h1>
+      <h1>Product Detail{id}</h1>
     </div>
   )
 }
 
-export default ProductDetail
+export default ProductDetailPage
